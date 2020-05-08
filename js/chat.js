@@ -163,7 +163,7 @@ const uploadImage = () => {
 	formdata.append('chat_uuid', 'jasdfasdfasdfasdf');
 
 	$.ajax({
-		url: 'http://localhost/phpmessenger/uploadimage.php',
+		url: 'uploadimage.php',
 		type: 'post',
 		data: formdata,
 		contentType: false,
